@@ -23,3 +23,5 @@ if __name__ == '__main__':
     IP = map(int, input("Enter integers: ").split())
     OP = bub_sort(IP)
     print(list(OP))
+
+exit(0)
