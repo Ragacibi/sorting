@@ -1,0 +1,27 @@
+= Sorting
+:author: Ragacibi
+
+NOTE: Use Python3
+
+== Description
+
+* The program does bubble sort
+
+* The function *bub_sort* accepts an iterable object as its parameter and sorts
+the elements in ascending order and returns a generator object.
+
+* For descending order, make the parameter `rev` True.
+
+== Demonstration
+
+----
+>>> val
+[7, 4, 8, 9, 3, 1]
+>>> sorting.bub_sort(val)
+<generator object bub_sort at 0x7fe7e1a0c6d0>
+>>> list(sorting.bub_sort(val))
+[1, 3, 4, 7, 8, 9]
+>>> list(sorting.bub_sort(val, rev = True))
+[9, 8, 7, 4, 3, 1]
+>>> 
+----
