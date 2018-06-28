@@ -1,1 +1,3 @@
-# sortingadded new python file
+#Sorting
+
+* Kindly go through slides.asciidoc
